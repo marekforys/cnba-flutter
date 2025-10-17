@@ -27,7 +27,7 @@ jobs:
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: stable
+          flutter-version: '3.22.x'
 
       - name: Install Dart
         uses: dart-lang/setup-dart@v1
